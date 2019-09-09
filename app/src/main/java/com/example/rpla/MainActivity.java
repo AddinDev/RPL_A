@@ -12,19 +12,31 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
 {
+    //Attribute, Variable, Field
+
+    //Access Modifier -- Nama Class -- nama object / nama variable
     private EditText etPanjang, etLebar, etTinggi;
     private Button btnHitung;
     private TextView tvHasil;
-    
+
+    //Method / Function
+
+    //Syntax Error
+
+    //Logic Error
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         Log.d("ASP",MainActivity.class.getSimpleName()+" onCreate");
+
+        //Binding View
         etPanjang = findViewById(R.id.etPanjang);
         etLebar = findViewById(R.id.etLebar);
         etTinggi = findViewById(R.id.etTinggi);
@@ -75,4 +87,6 @@ public class MainActivity extends AppCompatActivity
         super.onDestroy();
         Log.d("ASP",MainActivity.class.getSimpleName()+" onDestroy");
     }
+
+
 }
