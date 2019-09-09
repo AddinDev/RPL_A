@@ -9,3 +9,4 @@ Binding View / findViewId()
 mengambil nilai dari edittext ==> editText.getText().toString();
 Parsing / mengubah String ke int ==> Integer.parseInt(etTinggi.getText().toString());
 
+![alt text](https://imgur.com/Tr6ioaK)
